@@ -1,0 +1,34 @@
+*{
+    padding: 0%;
+    margin: 0px;
+}
+#mountain{
+    width: 100%;
+    height: 600px;
+    /* background-color: gray; */
+}
+#mountain{
+    
+     background-image: url(../../asset/image/LeftLargeMountainNight.png),
+     url(../../asset/image/fullmoon.png),url(../../asset/image/LeftSmallMountainNight.png),
+     url(../../asset/image/sunrise\ .png),url(../../asset/image/flyingBird.gif),
+     url(../../asset/image/RightSmallMountainNight.png),
+     url(../../asset/image/RightLargeMountainNight.png), url(../../asset/image/stars1.jpg);
+     background-size: 700px,150px, 600px, 300px,150px, 600px, 700px, 100%;
+     background-position: 0px 160px,top left, 350px 220px, 450px 500px,650px 400px,400px 220px, 610px 160px, center ;
+    background-repeat: no-repeat;  
+    transition: all 5s;  
+}
+#mountain:hover
+{
+    background-image: url(../../asset/image/LeftLargeMountain.png),
+     url(../../asset/image/fullmoon.png),url(../../asset/image/LeftSmallMountain.png),
+     url(../../asset/image/sunrise\ .png),url(../../asset/image/flyingBird.gif),
+     url(../../asset/image/RightSmallMountain.png),
+     url(../../asset/image/RightLargeMountain.png), url(../../asset/image/day.jpg);
+     background-size: 700px,50px, 600px, 250px,
+     150px, 600px, 700px, 100%;
+     background-position: -50px 210px,200px 300px, 300px 270px, 
+     600px 0px,1100px 300px,450px 270px, 660px 210px, bottom ;
+    background-repeat: no-repeat;  
+}
